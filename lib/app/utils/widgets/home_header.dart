@@ -37,12 +37,11 @@ class HomeHeader extends StatelessWidget {
           children: [
             Row(
               children: [
-                _HeaderIconButton(icon: Icons.menu_book_outlined, onTap: () {}),
                 Expanded(
                   child: Text(
-                    'Al Quran',
+                    'ListeniQuran',
                     textAlign: TextAlign.center,
-                    style: AppTextStyles.semibold.s18.copyWith(
+                    style: AppTextStyles.semibold.s24.copyWith(
                       color: AppColors.background,
                     ),
                   ),
@@ -58,23 +57,6 @@ class HomeHeader extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-class _HeaderIconButton extends StatelessWidget {
-  const _HeaderIconButton({required this.icon, required this.onTap});
-
-  final IconData icon;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return IconButton(
-      onPressed: onTap,
-      icon: Icon(icon),
-      color: AppColors.background,
-      tooltip: '',
     );
   }
 }
