@@ -2,6 +2,14 @@
 
 Technical Test for Mobile App Developer (Jakarta Site) – Transcosmos Indonesia
 
+<div align="center">
+  <img
+    src="https://github.com/user-attachments/assets/2ed1ad27-9d7e-470a-a8f1-00ec6e2d006c"
+    width="400"
+    alt="ListeniQur'an"
+  />
+</div>
+
 ## Overview
 
 ListeniQur'an is a Flutter-based mobile application that allows users to browse and listen to Quran recitations using the public Quran API provided by AlQuran Cloud.
@@ -125,17 +133,7 @@ Design characteristics:
 
 ## Screenshots
 
-### Splash Screen
-
-(Add Screenshot Here)
-
-### Home Screen
-
-(Add Screenshot Here)
-
-### Player Screen
-
-(Add Screenshot Here)
+<img width="6000" height="3375" alt="ss_listeniquran_views" src="https://github.com/user-attachments/assets/8c8fe219-84d2-426a-9c19-ba6ce483d9b6" />
 
 ---
 
