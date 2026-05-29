@@ -110,7 +110,6 @@ lib/
 | dio           | HTTP client for API communication                  |
 | just_audio    | Audio playback                                     |
 | audio_session | Audio session handling                             |
-| flutter_svg   | SVG asset support                                  |
 
 The implementation prioritizes custom business logic while using external libraries only when necessary.
 
